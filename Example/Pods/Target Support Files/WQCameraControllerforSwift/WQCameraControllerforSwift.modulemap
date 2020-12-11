@@ -1,0 +1,6 @@
+framework module WQCameraControllerforSwift {
+  umbrella header "WQCameraControllerforSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

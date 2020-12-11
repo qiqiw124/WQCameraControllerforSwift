@@ -1,0 +1,23 @@
+{
+  "name": "WQCameraControllerforSwift",
+  "version": "0.1.0",
+  "summary": "A short description of WQCameraControllerforSwift.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/01810452/WQCameraControllerforSwift",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "01810452": "wangqiqi@smt.cn"
+  },
+  "source": {
+    "git": "https://github.com/01810452/WQCameraControllerforSwift.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "WQCameraControllerforSwift/Classes/**/*",
+  "resources": "WQCameraControllerforSwift/Assets/*.png"
+}

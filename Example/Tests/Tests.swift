@@ -1,5 +1,4 @@
 import XCTest
-import WQCameraControllerforSwift
 
 class Tests: XCTestCase {
     

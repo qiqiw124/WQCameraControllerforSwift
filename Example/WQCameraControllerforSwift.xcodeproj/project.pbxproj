@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39CAC62E2583741D00459328 /* WQCameraForVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CAC62C2583741D00459328 /* WQCameraForVideoView.swift */; };
+		39CAC62F2583741D00459328 /* WQCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CAC62D2583741D00459328 /* WQCameraViewController.swift */; };
+		39CAC6302583741D00459328 /* WQCameraForPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CAC62A2583741D00459328 /* WQCameraForPhotoView.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -28,9 +31,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		37A73D5C4ACFCCD2BCDB83EA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		37A73D5C4ACFCCD2BCDB83EA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		39CAC6002583719200459328 /* WQCameraControllerforSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WQCameraControllerforSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39CAC62A2583741D00459328 /* WQCameraForPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WQCameraForPhotoView.swift; sourceTree = "<group>"; };
+		39CAC62C2583741D00459328 /* WQCameraForVideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WQCameraForVideoView.swift; sourceTree = "<group>"; };
+		39CAC62D2583741D00459328 /* WQCameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WQCameraViewController.swift; sourceTree = "<group>"; };
 		3BD01B5B1EAFA794B86CBB60 /* Pods-WQCameraControllerforSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WQCameraControllerforSwift_Tests.debug.xcconfig"; path = "Target Support Files/Pods-WQCameraControllerforSwift_Tests/Pods-WQCameraControllerforSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		3EAEE4837370C24F8F5249B0 /* WQCameraControllerforSwift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WQCameraControllerforSwift.podspec; path = ../WQCameraControllerforSwift.podspec; sourceTree = "<group>"; };
+		3EAEE4837370C24F8F5249B0 /* WQCameraControllerforSwift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WQCameraControllerforSwift.podspec; path = ../WQCameraControllerforSwift.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5427750A6CFC9EA1EC78D5EC /* Pods_WQCameraControllerforSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WQCameraControllerforSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* WQCameraControllerforSwift_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WQCameraControllerforSwift_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,7 +49,7 @@
 		607FACE51AFB9204008FA782 /* WQCameraControllerforSwift_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WQCameraControllerforSwift_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		9553120786E62C5585EF3381 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9553120786E62C5585EF3381 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9921A8096E6730C563135B23 /* Pods_WQCameraControllerforSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WQCameraControllerforSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9D95DBAB646636E46D2CAE6 /* Pods-WQCameraControllerforSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WQCameraControllerforSwift_Example.debug.xcconfig"; path = "Target Support Files/Pods-WQCameraControllerforSwift_Example/Pods-WQCameraControllerforSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EC2DFBEA3324DB471C18FEB0 /* Pods-WQCameraControllerforSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WQCameraControllerforSwift_Example.release.xcconfig"; path = "Target Support Files/Pods-WQCameraControllerforSwift_Example/Pods-WQCameraControllerforSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -95,6 +102,9 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				39CAC62A2583741D00459328 /* WQCameraForPhotoView.swift */,
+				39CAC62C2583741D00459328 /* WQCameraForVideoView.swift */,
+				39CAC62D2583741D00459328 /* WQCameraViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -147,13 +157,13 @@
 				3BD01B5B1EAFA794B86CBB60 /* Pods-WQCameraControllerforSwift_Tests.debug.xcconfig */,
 				F58B6F57B2BC3453BA4BDF6C /* Pods-WQCameraControllerforSwift_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		F2F93D0685DAE9E8D8F125BE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				39CAC6002583719200459328 /* WQCameraControllerforSwift.framework */,
 				5427750A6CFC9EA1EC78D5EC /* Pods_WQCameraControllerforSwift_Example.framework */,
 				9921A8096E6730C563135B23 /* Pods_WQCameraControllerforSwift_Tests.framework */,
 			);
@@ -171,7 +181,6 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				48F92C7664B13B9C9686CA9E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -214,10 +223,13 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = AQFQSJUEZN;
 						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = AQFQSJUEZN;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -228,6 +240,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -263,24 +276,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		48F92C7664B13B9C9686CA9E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-WQCameraControllerforSwift_Example/Pods-WQCameraControllerforSwift_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/WQCameraControllerforSwift/WQCameraControllerforSwift.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WQCameraControllerforSwift.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WQCameraControllerforSwift_Example/Pods-WQCameraControllerforSwift_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		4E3A478520EC5E3A5945306A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -352,6 +347,9 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				39CAC62E2583741D00459328 /* WQCameraForVideoView.swift in Sources */,
+				39CAC62F2583741D00459328 /* WQCameraViewController.swift in Sources */,
+				39CAC6302583741D00459328 /* WQCameraForPhotoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,11 +495,15 @@
 			baseConfigurationReference = A9D95DBAB646636E46D2CAE6 /* Pods-WQCameraControllerforSwift_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AQFQSJUEZN;
 				INFOPLIST_FILE = WQCameraControllerforSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.demo.WQCameraController2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
@@ -512,11 +514,15 @@
 			baseConfigurationReference = EC2DFBEA3324DB471C18FEB0 /* Pods-WQCameraControllerforSwift_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AQFQSJUEZN;
 				INFOPLIST_FILE = WQCameraControllerforSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.demo.WQCameraController2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
@@ -526,6 +532,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3BD01B5B1EAFA794B86CBB60 /* Pods-WQCameraControllerforSwift_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = AQFQSJUEZN;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -548,6 +555,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F58B6F57B2BC3453BA4BDF6C /* Pods-WQCameraControllerforSwift_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = AQFQSJUEZN;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
