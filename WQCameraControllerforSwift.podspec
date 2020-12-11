@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/01810452/WQCameraControllerforSwift'
+  s.homepage         = 'https://github.com/qiqiw124/WQCameraControllerforSwift'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '01810452' => 'wangqiqi@smt.cn' }
-  s.source           = { :git => 'https://github.com/01810452/WQCameraControllerforSwift.git', :tag => s.version.to_s }
+  s.author           = { 'YUER' => 'qiqiw124@163.com' }
+  s.source           = { :git => 'https://github.com/qiqiw124/WQCameraControllerforSwift.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
