@@ -6,19 +6,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/WQCameraControllerforSwift.svg?style=flat)](https://cocoapods.org/pods/WQCameraControllerforSwift)
 
 ## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
-
-## Installation
-
-WQCameraControllerforSwift is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod 'WQCameraControllerforSwift'
-```
+未配置pods，可下载直接使用
 
 ## Author
 
